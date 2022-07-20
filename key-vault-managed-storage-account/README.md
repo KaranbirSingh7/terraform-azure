@@ -27,3 +27,10 @@ az keyvault storage regenerate-key  --vault-name 'mysamplekeyvaultoops' --id 'ht
 # rotate key2
 az keyvault storage regenerate-key  --vault-name 'mysamplekeyvaultoops' --id 'https://mysamplekeyvaultoops.vault.azure.net/storage/mystorageaccountoops' --key-name 'key2'
 ```
+
+
+### References:
+
+- https://rakhesh.com/azure/using-azure-key-vault-to-manage-storage-account-keys/
+- https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/key_vault_managed_storage_account#attributes-reference
+- https://github.com/hashicorp/terraform-provider-azurerm/issues/4659
